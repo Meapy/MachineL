@@ -1,4 +1,4 @@
-Feature,Count,% Miss,Card.,Mode,Mode Freq.,Mode %,2nd Mode,2nd Mode freq,2nd Mode %
+FEATURENAME,Count,% Miss,Card.,Mode,Mode Freq.,Mode %,2nd Mode,2nd Mode freq,2nd Mode %
 workclass,29205,5.940763567882212,0, Private,21576,73.87776065742167, Self-emp-not-inc,2406,8.238315356959426
 education,30940,0.0,0, HS-grad,9976,32.24305106658048, Some-college,6938,22.4240465416936
 marital-status,30940,0.0,0, Married-civ-spouse,14201,45.898513251454425, Never-married,10167,32.86037491919845
