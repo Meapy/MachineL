@@ -1,0 +1,21 @@
+ASSESSMENT 1 - DATA QUALITY REPORT 
+For this assignment you need to write Python code to generate the continuous and categorical feature tables in a Data Quality Report form and provide an analysis of the data issues in the dataset.
+
+PYTHON INPUTS AND OUTPUT
+Below are the expected inputs and outputs of your Python program:
+INPUT: Your code should expect the following files as input (note the paths to the files):
+•	Your program should extract the names of the features in the dataset from a file called ’feature_names.txt’. Your program should expect to find this file using the following path ’./data/feature_names.txt’. Each line in this file will contain the name of one feature. The first line will contain the name of the feature in the first column in the dataset, the second line will contain the name of the second column in the dataset, and so on.
+
+•	Your program should expect that the dataset is in a comma separated file called ’dataset.csv’ that is stored in a directory called ’data’ that is a subdirectory of the directory your program is run from (so the path to the dataset file should be ’./data/dataset.csv’)
+
+OUTPUT: Your code should output the following files (note the paths to the files): 
+•	Your program should output 
+•	the table for the continuous features to a comma separated file ‘studentnumberCONT.csv’
+•	the table for the categorical features to a commas separated file ’studentnumberCAT.csv’. 
+where you replace the string studentnumber with your student number. 
+
+•	The format of these files should mirror the continuous feature table in the data quality report as presented in the notes, and more specifically:
+The first line in each file should be a header line - a comma separated listing the heading for each column in the file (use the string FEATURENAME for the name of the first column). 
+Each of the subsequent lines in the file should be a comma separated list with the name of the feature as the first element in the list and then the descriptive statistics in the subsequent commas separated elements in the list in the same order as they are listed in the notes.
+
+100%
